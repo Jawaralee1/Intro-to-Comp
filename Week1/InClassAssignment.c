@@ -4,22 +4,22 @@
 int main(){    
 
     char userChar = 'L';
-    int userAge = '18'
+    int userAge = 18;
     float userHeight = 6;
     bool student = true;
 
     
     
     
-    printf("first letter of my last name %c\n", userChar);
+    printf("The first letter of my last name is %c\n", userChar);
     printf("I am %d years old\n", userAge);
-    printf("I am %f feet tall\n", userHeight);
+    printf("I am %.02f feet tall\n", userHeight);
     
     if(student == true){
-        printf("I am a student");
+        printf("I am a student\n");
     }
     else{
-        printf("I am not a student");
+        printf("I am not a student\n");
     }
 
     return 0;
