@@ -8,15 +8,16 @@ int main(){
     float userHeight;
     bool student;
 
-    printf("Enter your age\n");
-    scanf("%d", &userAge);
+    
     printf("What is the first letter of your last name\n");
-    scanf("%c", &userChar);
+    scanf("  %c", &userChar);
     
     printf("Enter your Height\n");
     scanf("%f", &userHeight);
     printf("Are you a student?\n");
     scanf("%d", &student);
+    printf("Enter your age\n");
+    scanf("%d", &userAge);
 
     
     
